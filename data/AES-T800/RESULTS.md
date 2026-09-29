@@ -6,7 +6,7 @@ Unless explicitly stated otherwise, all models utilized 32-feature latent space 
 | ECOD       | 0.837205 | 0.932958 | scores inverted |
 | COPOD      | 0.960804 | 0.982019 | scores inverted |
 | ABOD       | 0.999013 | 0.999408 |                 |
-| MAD        | 1.00     | 1.00     |                 |
+| MAD        | 1.000000 | 1.000000 |                 |
 | SOS        | 0.530220 | 0.717609 |                 |
 | QMCD       | 0.967183 | 0.975335 |                 |
 | KDE        | 0.998933 | 0.999347 |                 |
