@@ -1,17 +1,18 @@
+# Quantitative Results
 Unless explicitly stated otherwise, all models utilized 32-feature latent space vectors as input, constructed with an autoencoder trained on 20 epochs. 
 ### Probabilistic Models
 
-| Algorithmn | ROC-AUC  | PR-AUC   | Notes           |
-| ---------- | -------- | -------- | --------------- |
-| ECOD       | 0.837205 | 0.932958 | scores inverted |
-| COPOD      | 0.960804 | 0.982019 | scores inverted |
-| ABOD       | 0.999013 | 0.999408 |                 |
-| MAD        | 1.000000 | 1.000000 |                 |
-| SOS        | 0.530220 | 0.717609 |                 |
-| QMCD       | 0.967183 | 0.975335 |                 |
-| KDE        | 0.998933 | 0.999347 |                 |
-| Sampling   | 0.977878 | 0.983202 |                 |
-| GMM        | 0.999701 | 0.999829 | *               |
+| Algorithmn | ROC-AUC  | PR-AUC   | Notes                             |
+| ---------- | -------- | -------- | --------------------------------- |
+| ECOD       | 0.837205 | 0.932958 | scores inverted                   |
+| COPOD      | 0.960804 | 0.982019 | scores inverted                   |
+| ABOD       | 0.999013 | 0.999408 |                                   |
+| MAD        | 1.00     | 1.00     | used raw (unencoded), scaled data |
+| SOS        | 0.530220 | 0.717609 |                                   |
+| QMCD       | 0.967183 | 0.975335 |                                   |
+| KDE        | 0.998933 | 0.999347 |                                   |
+| Sampling   | 0.977878 | 0.983202 |                                   |
+| GMM        | 0.999701 | 0.999829 | *                                 |
 ### Linear Models
 
 | Algorithmn | ROC-AUC  | PR-AUC   | Notes                                                  |
