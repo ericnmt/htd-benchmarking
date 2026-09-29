@@ -222,3 +222,6 @@ __marimo__/
 *.pt
 .DS_Store
 data/*
+
+*.pt
+*.npy
