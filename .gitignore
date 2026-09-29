@@ -221,7 +221,7 @@ __marimo__/
 .ipynb_checkpoints
 *.pt
 .DS_Store
-data/*
 
 *.pt
 *.npy
+ae_seed0.pt

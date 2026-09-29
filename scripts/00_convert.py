@@ -11,7 +11,7 @@ import time
 """
 
 SRC = os.path.expanduser("~/Documents/trojan-dataset/uncompressed/AES-T800_power_Temp25C")
-DEST = os.path.expanduser("~/Repositories/htd-benchmarking/data/processed")
+DEST = os.path.expanduser("~/Repositories/htd-benchmarking/data/AES-T800/npy_arrays")
 N_TRACES, N_SAMPLES = 10_000, 2_500
 
 def convert(cond):
