@@ -1,28 +1,32 @@
 # Quantitative Results
-Unless explicitly stated otherwise, all models utilized 32-feature latent space vectors as input, constructed with an autoencoder trained on 20 epochs. Latent space vectors were then scaled to improve feature detection, this has shown to improve select models but most notably those in the neural network class.
+Unless explicitly stated otherwise, all models utilized 32-feature latent space vectors as input, encoded with an autoencoder trained on 20 epochs. Latent space vectors were then scaled to improve feature detection, this has shown to improve select models but most notably those in the neural network class.
 ### Probabilistic
 
 | Algorithmn | ROC-AUC  | PR-AUC   | Notes                               |
 | ---------- | -------- | -------- | ----------------------------------- |
-| ECOD       | 0.837205 | 0.932958 | scores inverted                     |
-| COPOD      | 0.960804 | 0.982019 | scores inverted                     |
-| ABOD       | 0.998169 | 0.998736 |                                     |
-| MAD        | 1.00     | 1.00     | used raw (unencoded), scaled data * |
-| SOS        | 0.529366 | 0.716585 |                                     |
-| QMCD       | 0.967183 | 0.975335 |                                     |
 | KDE        | 0.999896 | 0.999943 |                                     |
+| GMM        | 0.999701 | 0.999829 |                                     |
+| ABOD       | 0.998169 | 0.998736 |                                     |
 | Sampling   | 0.990140 | 0.993052 |                                     |
-| GMM        | 0.999701 | 0.999829 | *                                   |
+| QMCD       | 0.967183 | 0.975335 |                                     |
+| COPOD      | 0.960804 | 0.982019 | scores inverted                     |
+| ECOD       | 0.837205 | 0.932958 | scores inverted                     |
+| SOS        | 0.529366 | 0.716585 |                                     |
+
+### Probabilistic - Mean Absolute Deviation (MAD)
+| Algorithm | ROC-AUC | PR-AUC | Notes                               |
+| --------- | ------- | ------ | ----------------------------------- |
+| MAD       | 1.00    | 1.00   | used raw (unencoded), scaled data * |
 ### Linear
 
-| Algorithmn | ROC-AUC  | PR-AUC   | Notes                                                  |
-| ---------- | -------- | -------- | ------------------------------------------------------ |
-| KPCA       | 0.999238 | 0.999376 |                                                        |
-| OCSVM      | 0.946877 | 0.965130 |                                                        |
-| PCA        | 0.944988 | 0.963730 |                                                        |
-| CD         | 0.871326 | 0.879415 |                                                        |
-| MCD        | 0.660521 | 0.673363 | Fitted on a T4 GPU, is not compatible with cpu devices |
-| LMDD       | 0.556269 | 0.756076 |                                                        |
+| Algorithmn | ROC-AUC  | PR-AUC   | Notes |
+| ---------- | -------- | -------- | ----- |
+| KPCA       | 0.999238 | 0.999376 |       |
+| OCSVM      | 0.946877 | 0.965130 |       |
+| PCA        | 0.944988 | 0.963730 |       |
+| CD         | 0.871326 | 0.879415 |       |
+| MCD        | 0.702989 | 0.697887 |       |
+| LMDD       | 0.531450 | 0.747944 |       |
 ### Proximity-Based
 
 | Algorithmn | ROC-AUC  | PR-AUC   | Notes           |
