@@ -61,17 +61,17 @@ Unless explicitly stated otherwise, all models utilized 32-feature latent space 
 | AutoEncoder | 0.885322 | 0.892301 | 16,8 hidden layer config |
 | MO_GAAL     | 0.879511 | 0.903334 | 60 epochs                |
 | AE1SVM      | 0.880220 | 0.912368 |                          |
-| AnoGAN      | 0.954185 | 0.970867 |                          |
+| AnoGAN      | 0.818057 | 0.882860 |                          |
 | ALAD        | 0.486475 | 0.650561 |                          |
 ### Time-Series Outlier Detection
 
 | Algorithmn        | ROC-AUC  | PR-AUC   | Notes |
 | ----------------- | -------- | -------- | ----- |
 | Time-Series OD    | 1.000000 | 1.000000 |       |
-| Spectral Residual | 0.415979 | 0.612389 |       |
+| LSTMAD            | 0.974082 | 0.979507 |       |
 | KShape            | 0.527746 | 0.655265 |       |
 | SAND              | 0.483546 | 0.646385 |       |
-| LSTMAD            | 0.974082 | 0.979507 |       |
+| Spectral Residual | 0.415979 | 0.612389 |       |
 
 ### Graph-Based Embeddings 
 | Algorithmn  | ROC-AUC  | PR-AUC   | Notes                                |
