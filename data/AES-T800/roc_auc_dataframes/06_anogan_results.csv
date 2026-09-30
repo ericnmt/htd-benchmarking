@@ -1,2 +1,2 @@
 ,model,roc_auc,pr_auc,inverted
-0,AnoGAN,0.76885586,0.8450124585767014,False
+0,AnoGAN,0.83830389,0.8925491006286725,False
