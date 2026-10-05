@@ -1,0 +1,4 @@
+,model,roc_auc,pr_auc,inverted
+0,PCA,1.0,1.0,False
+1,KPCA,1.0,1.0,False
+2,OCSVM,1.0,1.0,False

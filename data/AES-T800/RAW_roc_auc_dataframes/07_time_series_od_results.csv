@@ -1,0 +1,4 @@
+,model,roc_auc,pr_auc,inverted
+0,TimeSeriesOD,1.0,1.0,False
+2,LSTMAD,0.9950249999999999,0.9983333333333333,False
+1,SpectralResidual,0.51897742,0.6764930678281752,False
