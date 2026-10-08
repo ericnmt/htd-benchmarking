@@ -1,4 +1,4 @@
-# Quantitative Results
+# Quantitative Results AES-T800 Variant
 Unless explicitly stated otherwise, all models utilized 32-feature latent space vectors as input, encoded with an autoencoder trained on 20 epochs. Latent space vectors were then scaled to improve feature detection, this has shown to improve select models but most notably those in the neural network class.
 ### Probabilistic
 
