@@ -75,8 +75,8 @@ Unless explicitly stated otherwise, all models utilized 32-feature latent space 
 | Spectral Residual | 0.494996 | 0.659365 |       |
 
 ### Graph-Based Embeddings 
-| Algorithmn  | ROC-AUC  | PR-AUC   | Notes                                |
-| ----------- | -------- | -------- | ------------------------------------ |
-| LUNAR       | 1.000000 | 1.000000 |                                      |
-| RGraph      | -        | -        | Omitted                              |
-| EmbeddingOD | -        | -        | Omitted, not compatible with dataset |
+| Algorithmn  | ROC-AUC | PR-AUC | Notes                                |
+| ----------- | ------- | ------ | ------------------------------------ |
+| LUNAR       | 0.5     | 0.5    |                                      |
+| RGraph      | -       | -      | Omitted                              |
+| EmbeddingOD | -       | -      | Omitted, not compatible with dataset |
