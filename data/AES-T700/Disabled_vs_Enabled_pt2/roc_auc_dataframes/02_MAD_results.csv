@@ -1,0 +1,2 @@
+,model,roc_auc,pr_auc,pr_baseline
+0,MAD on AE recon error,0.46550017,0.6407861825532619,0.6666666666666666

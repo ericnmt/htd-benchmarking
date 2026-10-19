@@ -1,0 +1,45 @@
+family,input,model,roc_auc,pr_auc,inverted
+MAD,latent,MAD on AE recon error,0.73908989,0.8349749127716863,False
+time series od,latent,SAND,0.67438032,0.7873887916822709,False
+time series od,latent,LSTMAD,0.58370134,0.7010845565831364,False
+linear,latent,LMDD,0.5749510099999999,0.7930496965067275,False
+time series od,latent,KShape,0.56895958,0.7103413648067525,False
+outlier ensembles,latent,DIF,0.5114969,0.6657428239869615,False
+neural network,latent,SO_GAAL,0.51108401,0.6718160744000771,False
+probabilistic,latent,ECOD,0.50674352,0.6646612809456319,False
+probabilistic,latent,SOS,0.5012719999999999,0.6711813255974834,False
+neural network,latent,VAE,0.50052953,0.6639510274216378,False
+neural network,latent,AnoGAN,0.5002299099999999,0.668519420678162,False
+neural network,latent,MO_GAAL,0.50008857,0.6619454292985583,False
+proximity based,latent,ROD,0.4988258599999999,0.6623644002380712,False
+probabilistic,latent,COPOD,0.49825102,0.6579030065433502,False
+probabilistic,latent,ABOD,0.49784958,0.6585831380558549,False
+linear,latent,OCSVM,0.49700732,0.6609679959338088,False
+probabilistic,latent,Sampling,0.49635406,0.6700751104517917,False
+outlier ensembles,latent,INNE,0.49631586,0.6601058380922542,False
+neural network,latent,AutoEncoder,0.49594259,0.6599455716957497,False
+linear,latent,PCA,0.49534418,0.6591991678421509,False
+probabilistic,latent,GMM,0.49528653,0.6635666591272573,False
+proximity based,latent,COF,0.4951608,0.6625303975192938,False
+linear,latent,KPCA,0.4944227,0.6572571423441215,False
+graph based,latent,LUNAR,0.4941558,0.6552602434608954,False
+neural network,latent,ALAD,0.49413139,0.6640123193866339,False
+linear,latent,MCD,0.4935962,0.6592983626523494,False
+neural network,latent,AE1SVM,0.4935131599999999,0.65426223691278,False
+proximity based,latent,KNN,0.49250426,0.6547257492200411,False
+probabilistic,latent,QMCD,0.49151734,0.6557646450108667,False
+outlier ensembles,latent,LSCP,0.49113064,0.6558634066806306,False
+time series od,latent,SpectralResidual,0.49112348,0.6706503718713879,False
+probabilistic,latent,KDE,0.49092358,0.6545354347508692,False
+outlier ensembles,latent,SUOD,0.48962164,0.6544456418038078,False
+proximity based,latent,HDBSCAN,0.48897239,0.6517345246380459,False
+proximity based,latent,CBLOF,0.48884585,0.6511246686500934,False
+proximity based,latent,HBOS,0.488222,0.6549896584525452,False
+outlier ensembles,latent,IForest,0.4876465199999999,0.6506059236767288,False
+neural network,latent,DeepSVDD,0.4848912,0.6539227027511247,False
+outlier ensembles,latent,LODA,0.4848393200000001,0.6520282729419704,False
+proximity based,latent,LOF,0.48438947,0.6530079176308459,False
+outlier ensembles,latent,FeatureBagging,0.48416307,0.6528445821477125,False
+time series od,latent,TimeSeriesOD,0.47654626,0.6460831250911894,False
+linear,latent,CD,0.44305346,0.627151119649717,False
+proximity based,latent,SOD,0.3759086399999999,0.5856244001214849,False

@@ -1,0 +1,3 @@
+,model,roc_auc,pr_auc,pr_baseline,separability
+0,Trivial per-trace mean,0.53273939,0.6783835751687808,0.6666666666666666,0.53273939
+1,Null split (disabled vs disabled),0.53668816,0.5373922476554973,0.5,
