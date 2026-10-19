@@ -1,0 +1,6 @@
+T800 _2 | method=interp | seed=0 | epoch=20 | acc=0.9982 f1=0.9982 auc=1.0000
+T800 _2 | method=avg | seed=0 | epoch=20 | acc=0.9998 f1=0.9998 auc=1.0000
+T800 _2 | method=interp | seed=1 | epoch=20 | acc=0.9955 f1=0.9955 auc=1.0000
+T800 _2 | method=avg | seed=1 | epoch=20 | acc=0.9982 f1=0.9982 auc=1.0000
+T800 _2 | method=interp | seed=2 | epoch=20 | acc=0.9872 f1=0.9874 auc=0.9999
+T800 _2 | method=avg | seed=2 | epoch=20 | acc=0.9988 f1=0.9988 auc=0.9999
