@@ -1,0 +1,38 @@
+benchmark,experiment,family,model,roc_auc,pr_auc,pr_baseline,inverted
+AES-T800,Disabled_vs_Triggered_pt2,graph based,LUNAR,1.0,1.0,,False
+AES-T800,Disabled_vs_Triggered_pt2,MAD,AE reconstruction error,1.0,1.0,0.6666666666666666,
+AES-T800,Disabled_vs_Triggered_pt2,neural network,DeepSVDD,1.0,1.0,,False
+AES-T800,Disabled_vs_Triggered_pt2,MAD,MAD on AE recon error,1.0,1.0,0.6666666666666666,
+AES-T800,Disabled_vs_Triggered_pt2,probabilistic,KDE,0.99989588,0.9999427872487976,0.6666666666666666,
+AES-T800,Disabled_vs_Triggered_pt2,proximity based,KNN,0.9998682,0.999928421259524,,False
+AES-T800,Disabled_vs_Triggered_pt2,proximity based,LOF,0.99984088,0.9999068998299178,,False
+AES-T800,Disabled_vs_Triggered_pt2,probabilistic,GMM,0.99970086,0.9998290796764392,0.6666666666666666,
+AES-T800,Disabled_vs_Triggered_pt2,outlier ensembles,FeatureBagging,0.9996647,0.9997722029358348,,False
+AES-T800,Disabled_vs_Triggered_pt2,outlier ensembles,SUOD,0.99943868,0.9995952401594972,,False
+AES-T800,Disabled_vs_Triggered_pt2,linear,KPCA,0.99923838,0.9993757164968988,0.6666666666666666,
+AES-T800,Disabled_vs_Triggered_pt2,probabilistic,ABOD,0.99816932,0.9987355429426874,0.6666666666666666,
+AES-T800,Disabled_vs_Triggered_pt2,proximity based,CBLOF,0.9919457,0.9939536494945624,,False
+AES-T800,Disabled_vs_Triggered_pt2,probabilistic,Sampling,0.99013994,0.9930515265659964,0.6666666666666666,
+AES-T800,Disabled_vs_Triggered_pt2,outlier ensembles,LSCP,0.98945044,0.994634889703625,,False
+AES-T800,Disabled_vs_Triggered_pt2,outlier ensembles,INNE,0.9847147,0.9895806030751044,,False
+AES-T800,Disabled_vs_Triggered_pt2,neural network,VAE,0.98465566,0.9890021143659128,,False
+AES-T800,Disabled_vs_Triggered_pt2,probabilistic,QMCD,0.96718322,0.9753355280501828,0.6666666666666666,
+AES-T800,Disabled_vs_Triggered_pt2,outlier ensembles,IForest,0.95824614,0.97136038542073,,False
+AES-T800,Disabled_vs_Triggered_pt2,linear,OCSVM,0.94687652,0.9651302326276968,0.6666666666666666,
+AES-T800,Disabled_vs_Triggered_pt2,linear,PCA,0.94498772,0.9637303912858736,0.6666666666666666,
+AES-T800,Disabled_vs_Triggered_pt2,proximity based,HBOS,0.93948572,0.9549402786443962,,False
+AES-T800,Disabled_vs_Triggered_pt2,probabilistic,COPOD,0.933484,0.9531157781613524,0.6666666666666666,
+AES-T800,Disabled_vs_Triggered_pt2,neural network,SO_GAAL,0.92856228,0.9428631163808556,,False
+AES-T800,Disabled_vs_Triggered_pt2,outlier ensembles,LODA,0.90538966,0.9354806663653532,,False
+AES-T800,Disabled_vs_Triggered_pt2,probabilistic,ECOD,0.9022971600000002,0.9356431834124116,0.6666666666666666,
+AES-T800,Disabled_vs_Triggered_pt2,neural network,AnoGAN,0.8928781100000002,0.929633353781798,,False
+AES-T800,Disabled_vs_Triggered_pt2,neural network,AutoEncoder,0.8853260499999999,0.8923047101366994,,False
+AES-T800,Disabled_vs_Triggered_pt2,neural network,MO_GAAL,0.87951126,0.9033344031532918,,False
+AES-T800,Disabled_vs_Triggered_pt2,neural network,AE1SVM,0.86096607,0.894070115022422,,False
+AES-T800,Disabled_vs_Triggered_pt2,outlier ensembles,DIF,0.8264050600000001,0.9120195063424296,,False
+AES-T800,Disabled_vs_Triggered_pt2,linear,MCD,0.7110511199999999,0.7022009518694391,0.6666666666666666,
+AES-T800,Disabled_vs_Triggered_pt2,proximity based,HDBSCAN,0.60039097,0.7100478032946103,,False
+AES-T800,Disabled_vs_Triggered_pt2,proximity based,COF,0.5271363,0.6830534503016967,,False
+AES-T800,Disabled_vs_Triggered_pt2,neural network,ALAD,0.48647528,0.6505614402223505,,False
+AES-T800,Disabled_vs_Triggered_pt2,proximity based,ROD,0.35767682,0.6022209973411381,,False
+AES-T800,Disabled_vs_Triggered_pt2,proximity based,SOD,0.0040458599999999,0.4509751138726955,,False
