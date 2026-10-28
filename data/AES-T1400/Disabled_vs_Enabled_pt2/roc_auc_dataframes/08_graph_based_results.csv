@@ -1,2 +1,2 @@
-,model,roc_auc,pr_auc,pr_baseline,inverted
-0,LUNAR,0.50499247,0.6669140765733536,0.6666666666666666,False
+model,roc_auc,pr_auc,pr_baseline
+LUNAR,0.5049576899999999,0.6676029131321435,0.6666666666666666
