@@ -1,0 +1,8 @@
+benchmark,method,anomaly,plaintext,experiment,legacy,family,model,roc_auc,pr_auc,pr_baseline,inverted,source_file
+AES-T700,PCA,Enabled,2,PCA_Disabled_vs_Enabled_pt2,False,probabilistic,KDE,0.49225374,0.6546787211636262,0.6666666666666666,False,data/AES-T700/PCA_Disabled_vs_Enabled_pt2/roc_auc_dataframes/01_probabilistic_results.csv
+AES-T700,PCA,Enabled,2,PCA_Disabled_vs_Enabled_pt2,False,probabilistic,Sampling,0.4909127199999999,0.6561972087456669,0.6666666666666666,False,data/AES-T700/PCA_Disabled_vs_Enabled_pt2/roc_auc_dataframes/01_probabilistic_results.csv
+AES-T700,PCA,Enabled,2,PCA_Disabled_vs_Enabled_pt2,False,probabilistic,ECOD,0.4860552199999999,0.6563683057111848,0.6666666666666666,False,data/AES-T700/PCA_Disabled_vs_Enabled_pt2/roc_auc_dataframes/01_probabilistic_results.csv
+AES-T700,PCA,Enabled,2,PCA_Disabled_vs_Enabled_pt2,False,probabilistic,QMCD,0.48592302,0.6561847976374957,0.6666666666666666,False,data/AES-T700/PCA_Disabled_vs_Enabled_pt2/roc_auc_dataframes/01_probabilistic_results.csv
+AES-T700,PCA,Enabled,2,PCA_Disabled_vs_Enabled_pt2,False,probabilistic,COPOD,0.48300042,0.6537884163639596,0.6666666666666666,False,data/AES-T700/PCA_Disabled_vs_Enabled_pt2/roc_auc_dataframes/01_probabilistic_results.csv
+AES-T700,PCA,Enabled,2,PCA_Disabled_vs_Enabled_pt2,False,probabilistic,ABOD,0.48203146,0.6466295396638355,0.6666666666666666,False,data/AES-T700/PCA_Disabled_vs_Enabled_pt2/roc_auc_dataframes/01_probabilistic_results.csv
+AES-T700,PCA,Enabled,2,PCA_Disabled_vs_Enabled_pt2,False,probabilistic,GMM,0.48054702,0.652394206985727,0.6666666666666666,False,data/AES-T700/PCA_Disabled_vs_Enabled_pt2/roc_auc_dataframes/01_probabilistic_results.csv

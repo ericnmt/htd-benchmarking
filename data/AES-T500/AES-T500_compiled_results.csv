@@ -1,89 +1,114 @@
-family,input,model,roc_auc,pr_auc,pr_baseline,inverted
-time series od,latent,TimeSeriesOD,0.66004966,0.7788388504585171,,False
-time series od,latent,KShape,0.58814192,0.7230773174927493,0.6666666666666666,False
-time series od,latent,TimeSeriesOD,0.57522294,0.7136232200106889,0.6666666666666666,False
-time series od,latent,KShape,0.55936502,0.7056901186571027,,False
-MAD,latent,MAD on AE recon error,0.55476203,0.7141043958206841,,False
-linear,latent,KPCA,0.5419379900000001,0.7067946082093874,,False
-probabilistic,latent,KDE,0.5418352200000001,0.7041017398166796,,False
-graph based,latent,LUNAR,0.54163153,0.7043093312877056,,False
-probabilistic,latent,ECOD,0.54042044,0.6917773083607256,0.6666666666666666,False
-proximity based,latent,KNN,0.54030205,0.7024962607098428,,False
-MAD,latent,MAD on AE recon error,0.54028215,0.6951727250417603,0.6666666666666666,False
-probabilistic,latent,COPOD,0.53990912,0.6873006742412979,0.6666666666666666,False
-proximity based,latent,CBLOF,0.53896397,0.6976985252893027,,False
-probabilistic,latent,ABOD,0.5376133000000001,0.6981333652050243,,False
-time series od,latent,LSTMAD,0.5365660000000001,0.6985886225223366,,False
-probabilistic,latent,COPOD,0.53298248,0.6917823211922178,,False
-outlier ensembles,latent,SUOD,0.53228318,0.6988109107792726,,False
-probabilistic,latent,ECOD,0.53195072,0.6901623392293526,,False
-linear,latent,MCD,0.5312138399999999,0.6991585960401373,,False
-outlier ensembles,latent,FeatureBagging,0.52831394,0.6943185326558099,,False
-proximity based,latent,LOF,0.52772317,0.694816436080749,,False
-probabilistic,latent,GMM,0.5275065999999999,0.6939628836207633,,False
-linear,latent,KPCA,0.52485962,0.681281746742258,0.6666666666666666,False
-linear,latent,MCD,0.5247514,0.68203790700351,0.6666666666666666,False
-probabilistic,latent,GMM,0.52391994,0.6819366174520758,0.6666666666666666,False
-outlier ensembles,latent,LSCP,0.5233712,0.6924935797866252,,False
-probabilistic,latent,Sampling,0.52317278,0.6855402574518765,,False
-outlier ensembles,latent,INNE,0.52279424,0.6933781559853858,,False
-outlier ensembles,latent,SUOD,0.52039654,0.6768277905729336,0.6666666666666666,False
-probabilistic,latent,QMCD,0.5198353600000001,0.6967523458944183,,False
-proximity based,latent,CBLOF,0.51921532,0.6760392527118387,0.6666666666666666,False
-linear,latent,OCSVM,0.51858882,0.691721852608683,,False
-outlier ensembles,latent,FeatureBagging,0.51850973,0.6765362928390242,0.6666666666666666,False
-time series od,latent,SAND,0.51788704,0.6796595221027518,0.6666666666666666,False
-neural network,latent,AutoEncoder,0.5178688300000001,0.6813152236255008,,False
-linear,latent,PCA,0.5172988000000001,0.6949967513903034,,False
-proximity based,latent,HBOS,0.5172228,0.6946416088635365,,False
-linear,latent,LMDD,0.5169553,0.7589115195053221,0.6666666666666666,False
-neural network,latent,AutoEncoder,0.51653643,0.6786674498888273,0.6666666666666666,False
-outlier ensembles,latent,IForest,0.516521,0.6841538623533674,,False
-outlier ensembles,latent,LSCP,0.51612108,0.6749265887247222,0.6666666666666666,False
-proximity based,latent,KNN,0.51563182,0.6757697934201208,0.6666666666666666,False
-probabilistic,latent,KDE,0.51557732,0.6771958223533554,0.6666666666666666,False
-proximity based,latent,LOF,0.51466089,0.6739577090477038,0.6666666666666666,False
-outlier ensembles,latent,INNE,0.51464458,0.6759937044024511,0.6666666666666666,False
-graph based,latent,LUNAR,0.5144643,0.6763134232901233,0.6666666666666666,False
-neural network,latent,VAE,0.51365539,0.6716533584343121,,False
-probabilistic,latent,Sampling,0.51329308,0.6748268244242374,0.6666666666666666,False
-outlier ensembles,latent,DIF,0.5121105800000001,0.6686877106255048,,False
-time series od,latent,LSTMAD,0.51114382,0.6726530694768682,0.6666666666666666,False
-probabilistic,latent,QMCD,0.51108704,0.6727152512361031,0.6666666666666666,False
-linear,latent,OCSVM,0.51100732,0.672380915051397,0.6666666666666666,False
-outlier ensembles,latent,IForest,0.5109974599999999,0.6711122114617606,0.6666666666666666,False
-proximity based,latent,HDBSCAN,0.5103027,0.6773830647474413,,False
-neural network,latent,VAE,0.50950715,0.6685625416780417,0.6666666666666666,False
-linear,latent,PCA,0.50935972,0.6718688545021607,0.6666666666666666,False
-probabilistic,latent,ABOD,0.50875424,0.6727053646952144,0.6666666666666666,False
-proximity based,latent,HBOS,0.50735672,0.6703705571014494,0.6666666666666666,False
-neural network,latent,AE1SVM,0.50361483,0.663428637376807,0.6666666666666666,False
-outlier ensembles,latent,DIF,0.502805,0.6655673804520073,0.6666666666666666,False
-neural network,latent,SO_GAAL,0.50176729,0.6657336258415509,0.6666666666666666,False
-time series od,latent,SAND,0.5009699000000001,0.6533675123551098,,False
-proximity based,latent,ROD,0.50026874,0.6654948145413979,0.6666666666666666,False
-proximity based,latent,HDBSCAN,0.4993987,0.6669964461607178,0.6666666666666666,False
-probabilistic,latent,SOS,0.49937484,0.66434462767794,,False
-probabilistic,latent,SOS,0.49905098,0.664450001962338,0.6666666666666666,False
-proximity based,latent,COF,0.49859178,0.6661784528717345,,False
-outlier ensembles,latent,LODA,0.49691056,0.6596529024567445,0.6666666666666666,False
-time series od,latent,SpectralResidual,0.49668048,0.6659514794012391,0.6666666666666666,False
-neural network,latent,ALAD,0.4962035499999999,0.6665272630344803,,False
-proximity based,latent,ROD,0.49540746,0.6803684635100076,,False
-neural network,latent,MO_GAAL,0.49440268,0.6606031234526182,0.6666666666666666,False
-linear,latent,LMDD,0.49384418,0.7502046621307021,,False
-proximity based,latent,COF,0.49304662,0.6620449776961124,0.6666666666666666,False
-neural network,latent,DeepSVDD,0.4918094899999999,0.6600104353377578,,False
-neural network,latent,ALAD,0.49152775,0.6625701223528291,0.6666666666666666,False
-outlier ensembles,latent,LODA,0.4903475199999999,0.6588889831533774,,False
-neural network,latent,AnoGAN,0.48892779,0.6579216697705381,0.6666666666666666,False
-neural network,latent,AE1SVM,0.48839288,0.6503714691034046,,False
-neural network,latent,DeepSVDD,0.4874099,0.6572462113390787,0.6666666666666666,False
-neural network,latent,SO_GAAL,0.48736305,0.6576476449557113,,False
-time series od,latent,SpectralResidual,0.4829241399999999,0.6621184855528928,,False
-neural network,latent,MO_GAAL,0.46599538,0.6354402647503237,,False
-neural network,latent,AnoGAN,0.45584056,0.6311316012644381,,False
-linear,latent,CD,0.43863444,0.6256353762384715,0.6666666666666666,False
-proximity based,latent,SOD,0.43097152,0.617963755447134,,False
-proximity based,latent,SOD,0.4262840599999999,0.6180314426327327,0.6666666666666666,False
-linear,latent,CD,0.40355136,0.6052513664336364,,False
+benchmark,method,anomaly,plaintext,experiment,legacy,family,model,roc_auc,pr_auc,pr_baseline,inverted,source_file
+AES-T500,AE,Enabled,2,AE_Disabled_vs_Enabled_pt2,False,time series od,KShape,0.58814192,0.7230773174927493,0.6666666666666666,False,data/AES-T500/AE_Disabled_vs_Enabled_pt2/roc_auc_dataframes/07_time_series_od_results.csv
+AES-T500,AE,Enabled,2,AE_Disabled_vs_Enabled_pt2,False,time series od,TimeSeriesOD,0.57522294,0.7136232200106889,0.6666666666666666,False,data/AES-T500/AE_Disabled_vs_Enabled_pt2/roc_auc_dataframes/07_time_series_od_results.csv
+AES-T500,AE,Enabled,2,AE_Disabled_vs_Enabled_pt2,False,MAD,MAD on AE recon error,0.54028215,0.6951727250417603,0.6666666666666666,False,data/AES-T500/AE_Disabled_vs_Enabled_pt2/roc_auc_dataframes/02_MAD_results.csv
+AES-T500,AE,Enabled,2,AE_Disabled_vs_Enabled_pt2,False,linear,KPCA,0.52485962,0.681281746742258,0.6666666666666666,False,data/AES-T500/AE_Disabled_vs_Enabled_pt2/roc_auc_dataframes/03_linear_results.csv
+AES-T500,AE,Enabled,2,AE_Disabled_vs_Enabled_pt2,False,linear,MCD,0.52476334,0.6819979274324703,0.6666666666666666,False,data/AES-T500/AE_Disabled_vs_Enabled_pt2/roc_auc_dataframes/03_linear_results.csv
+AES-T500,AE,Enabled,2,AE_Disabled_vs_Enabled_pt2,False,probabilistic,GMM,0.52391994,0.6819366174520758,0.6666666666666666,False,data/AES-T500/AE_Disabled_vs_Enabled_pt2/roc_auc_dataframes/01_probabilistic_results.csv
+AES-T500,AE,Enabled,2,AE_Disabled_vs_Enabled_pt2,False,outlier ensembles,SUOD,0.52039654,0.6768277905729336,0.6666666666666666,False,data/AES-T500/AE_Disabled_vs_Enabled_pt2/roc_auc_dataframes/05_outlier_ensembles_results.csv
+AES-T500,AE,Enabled,2,AE_Disabled_vs_Enabled_pt2,False,proximity based,CBLOF,0.51921529,0.6760392291714995,0.6666666666666666,False,data/AES-T500/AE_Disabled_vs_Enabled_pt2/roc_auc_dataframes/04_proximity_based_results.csv
+AES-T500,AE,Enabled,2,AE_Disabled_vs_Enabled_pt2,False,outlier ensembles,FeatureBagging,0.51850973,0.6765362928390242,0.6666666666666666,False,data/AES-T500/AE_Disabled_vs_Enabled_pt2/roc_auc_dataframes/05_outlier_ensembles_results.csv
+AES-T500,AE,Enabled,2,AE_Disabled_vs_Enabled_pt2,False,time series od,SAND,0.51788704,0.6796595221027518,0.6666666666666666,False,data/AES-T500/AE_Disabled_vs_Enabled_pt2/roc_auc_dataframes/07_time_series_od_results.csv
+AES-T500,AE,Enabled,2,AE_Disabled_vs_Enabled_pt2,False,neural network,AutoEncoder,0.51653643,0.6786674498888273,0.6666666666666666,False,data/AES-T500/AE_Disabled_vs_Enabled_pt2/roc_auc_dataframes/06_neural_network_results.csv
+AES-T500,AE,Enabled,2,AE_Disabled_vs_Enabled_pt2,False,proximity based,KNN,0.51563182,0.6757697934201208,0.6666666666666666,False,data/AES-T500/AE_Disabled_vs_Enabled_pt2/roc_auc_dataframes/04_proximity_based_results.csv
+AES-T500,AE,Enabled,2,AE_Disabled_vs_Enabled_pt2,False,probabilistic,KDE,0.51557732,0.6771958223533554,0.6666666666666666,False,data/AES-T500/AE_Disabled_vs_Enabled_pt2/roc_auc_dataframes/01_probabilistic_results.csv
+AES-T500,AE,Enabled,2,AE_Disabled_vs_Enabled_pt2,False,graph based,LUNAR,0.51557594,0.6765986034874535,0.6666666666666666,False,data/AES-T500/AE_Disabled_vs_Enabled_pt2/roc_auc_dataframes/08_graph_based_results.csv
+AES-T500,AE,Enabled,2,AE_Disabled_vs_Enabled_pt2,False,outlier ensembles,LSCP,0.51549862,0.674787873673489,0.6666666666666666,False,data/AES-T500/AE_Disabled_vs_Enabled_pt2/roc_auc_dataframes/05_outlier_ensembles_results.csv
+AES-T500,AE,Enabled,2,AE_Disabled_vs_Enabled_pt2,False,proximity based,LOF,0.51466089,0.6739577090477038,0.6666666666666666,False,data/AES-T500/AE_Disabled_vs_Enabled_pt2/roc_auc_dataframes/04_proximity_based_results.csv
+AES-T500,AE,Enabled,2,AE_Disabled_vs_Enabled_pt2,False,outlier ensembles,INNE,0.51464458,0.6759937044024511,0.6666666666666666,False,data/AES-T500/AE_Disabled_vs_Enabled_pt2/roc_auc_dataframes/05_outlier_ensembles_results.csv
+AES-T500,AE,Enabled,2,AE_Disabled_vs_Enabled_pt2,False,outlier ensembles,LODA,0.51430474,0.6777855130725683,0.6666666666666666,False,data/AES-T500/AE_Disabled_vs_Enabled_pt2/roc_auc_dataframes/05_outlier_ensembles_results.csv
+AES-T500,AE,Enabled,2,AE_Disabled_vs_Enabled_pt2,False,proximity based,COF,0.51418704,0.6723713858633675,0.6666666666666666,False,data/AES-T500/AE_Disabled_vs_Enabled_pt2/roc_auc_dataframes/04_proximity_based_results.csv
+AES-T500,AE,Enabled,2,AE_Disabled_vs_Enabled_pt2,False,probabilistic,Sampling,0.51329308,0.6748268244242374,0.6666666666666666,False,data/AES-T500/AE_Disabled_vs_Enabled_pt2/roc_auc_dataframes/01_probabilistic_results.csv
+AES-T500,AE,Enabled,2,AE_Disabled_vs_Enabled_pt2,False,probabilistic,COPOD,0.51231044,0.6737679102358028,0.6666666666666666,False,data/AES-T500/AE_Disabled_vs_Enabled_pt2/roc_auc_dataframes/01_probabilistic_results.csv
+AES-T500,AE,Enabled,2,AE_Disabled_vs_Enabled_pt2,False,time series od,LSTMAD,0.51114382,0.6726530694768682,0.6666666666666666,False,data/AES-T500/AE_Disabled_vs_Enabled_pt2/roc_auc_dataframes/07_time_series_od_results.csv
+AES-T500,AE,Enabled,2,AE_Disabled_vs_Enabled_pt2,False,probabilistic,QMCD,0.51108704,0.6727152512361031,0.6666666666666666,False,data/AES-T500/AE_Disabled_vs_Enabled_pt2/roc_auc_dataframes/01_probabilistic_results.csv
+AES-T500,AE,Enabled,2,AE_Disabled_vs_Enabled_pt2,False,linear,OCSVM,0.51100732,0.672380915051397,0.6666666666666666,False,data/AES-T500/AE_Disabled_vs_Enabled_pt2/roc_auc_dataframes/03_linear_results.csv
+AES-T500,AE,Enabled,2,AE_Disabled_vs_Enabled_pt2,False,outlier ensembles,IForest,0.5109974599999999,0.6711122114617606,0.6666666666666666,False,data/AES-T500/AE_Disabled_vs_Enabled_pt2/roc_auc_dataframes/05_outlier_ensembles_results.csv
+AES-T500,AE,Enabled,2,AE_Disabled_vs_Enabled_pt2,False,neural network,VAE,0.51054543,0.6695734758230454,0.6666666666666666,False,data/AES-T500/AE_Disabled_vs_Enabled_pt2/roc_auc_dataframes/06_neural_network_results.csv
+AES-T500,AE,Enabled,2,AE_Disabled_vs_Enabled_pt2,False,linear,PCA,0.50935972,0.6718688545021607,0.6666666666666666,False,data/AES-T500/AE_Disabled_vs_Enabled_pt2/roc_auc_dataframes/03_linear_results.csv
+AES-T500,AE,Enabled,2,AE_Disabled_vs_Enabled_pt2,False,probabilistic,ECOD,0.50903228,0.6714584382737254,0.6666666666666666,False,data/AES-T500/AE_Disabled_vs_Enabled_pt2/roc_auc_dataframes/01_probabilistic_results.csv
+AES-T500,AE,Enabled,2,AE_Disabled_vs_Enabled_pt2,False,probabilistic,ABOD,0.50875424,0.6727053646952144,0.6666666666666666,False,data/AES-T500/AE_Disabled_vs_Enabled_pt2/roc_auc_dataframes/01_probabilistic_results.csv
+AES-T500,AE,Enabled,2,AE_Disabled_vs_Enabled_pt2,False,proximity based,HBOS,0.50735672,0.6703705571014494,0.6666666666666666,False,data/AES-T500/AE_Disabled_vs_Enabled_pt2/roc_auc_dataframes/04_proximity_based_results.csv
+AES-T500,AE,Enabled,2,AE_Disabled_vs_Enabled_pt2,False,neural network,AE1SVM,0.50361483,0.663428637376807,0.6666666666666666,False,data/AES-T500/AE_Disabled_vs_Enabled_pt2/roc_auc_dataframes/06_neural_network_results.csv
+AES-T500,AE,Enabled,2,AE_Disabled_vs_Enabled_pt2,False,neural network,SO_GAAL,0.50176729,0.6657336258415509,0.6666666666666666,False,data/AES-T500/AE_Disabled_vs_Enabled_pt2/roc_auc_dataframes/06_neural_network_results.csv
+AES-T500,AE,Enabled,2,AE_Disabled_vs_Enabled_pt2,False,neural network,ALAD,0.49943195,0.6649340335009655,0.6666666666666666,False,data/AES-T500/AE_Disabled_vs_Enabled_pt2/roc_auc_dataframes/06_neural_network_results.csv
+AES-T500,AE,Enabled,2,AE_Disabled_vs_Enabled_pt2,False,proximity based,HDBSCAN,0.4993987,0.6669964461607178,0.6666666666666666,False,data/AES-T500/AE_Disabled_vs_Enabled_pt2/roc_auc_dataframes/04_proximity_based_results.csv
+AES-T500,AE,Enabled,2,AE_Disabled_vs_Enabled_pt2,False,time series od,SpectralResidual,0.49668048,0.6659514794012391,0.6666666666666666,False,data/AES-T500/AE_Disabled_vs_Enabled_pt2/roc_auc_dataframes/07_time_series_od_results.csv
+AES-T500,AE,Enabled,2,AE_Disabled_vs_Enabled_pt2,False,neural network,MO_GAAL,0.49440268,0.6606031234526182,0.6666666666666666,False,data/AES-T500/AE_Disabled_vs_Enabled_pt2/roc_auc_dataframes/06_neural_network_results.csv
+AES-T500,AE,Enabled,2,AE_Disabled_vs_Enabled_pt2,False,neural network,AnoGAN,0.48892779,0.6579216697705381,0.6666666666666666,False,data/AES-T500/AE_Disabled_vs_Enabled_pt2/roc_auc_dataframes/06_neural_network_results.csv
+AES-T500,AE,Enabled,2,AE_Disabled_vs_Enabled_pt2,False,neural network,DeepSVDD,0.4874099,0.6572462113390787,0.6666666666666666,False,data/AES-T500/AE_Disabled_vs_Enabled_pt2/roc_auc_dataframes/06_neural_network_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,time series od,TimeSeriesOD,0.66004966,0.7788388504585171,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/07_time_series_od_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,time series od,KShape,0.55936502,0.7056901186571027,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/07_time_series_od_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,MAD,MAD on AE recon error,0.55476203,0.7141043958206841,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/02_MAD_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,linear,KPCA,0.5419379900000001,0.7067946082093874,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/03_linear_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,probabilistic,KDE,0.5418352200000001,0.7041017398166796,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/01_probabilistic_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,graph based,LUNAR,0.54163153,0.7043093312877056,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/08_graph_based_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,proximity based,KNN,0.54030205,0.7024962607098428,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/04_proximity_based_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,proximity based,CBLOF,0.53896397,0.6976985252893027,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/04_proximity_based_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,probabilistic,ABOD,0.5376133000000001,0.6981333652050243,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/01_probabilistic_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,time series od,LSTMAD,0.5365660000000001,0.6985886225223366,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/07_time_series_od_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,probabilistic,COPOD,0.53298248,0.6917823211922178,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/01_probabilistic_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,outlier ensembles,SUOD,0.53228318,0.6988109107792726,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/05_outlier_ensembles_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,probabilistic,ECOD,0.53195072,0.6901623392293526,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/01_probabilistic_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,linear,MCD,0.5312138399999999,0.6991585960401373,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/03_linear_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,outlier ensembles,FeatureBagging,0.52831394,0.6943185326558099,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/05_outlier_ensembles_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,proximity based,LOF,0.52772317,0.694816436080749,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/04_proximity_based_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,probabilistic,GMM,0.5275065999999999,0.6939628836207633,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/01_probabilistic_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,outlier ensembles,LSCP,0.5233712,0.6924935797866252,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/05_outlier_ensembles_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,probabilistic,Sampling,0.52317278,0.6855402574518765,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/01_probabilistic_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,outlier ensembles,INNE,0.52279424,0.6933781559853858,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/05_outlier_ensembles_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,probabilistic,QMCD,0.5198353600000001,0.6967523458944183,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/01_probabilistic_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,linear,OCSVM,0.51858882,0.691721852608683,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/03_linear_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,neural network,AutoEncoder,0.5178688300000001,0.6813152236255008,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/06_neural_network_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,linear,PCA,0.5172988000000001,0.6949967513903034,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/03_linear_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,proximity based,HBOS,0.5172228,0.6946416088635365,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/04_proximity_based_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,outlier ensembles,IForest,0.516521,0.6841538623533674,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/05_outlier_ensembles_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,neural network,VAE,0.51365539,0.6716533584343121,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/06_neural_network_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,outlier ensembles,DIF,0.5121105800000001,0.6686877106255048,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/05_outlier_ensembles_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,proximity based,HDBSCAN,0.5103027,0.6773830647474413,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/04_proximity_based_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,time series od,SAND,0.5009699000000001,0.6533675123551098,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/07_time_series_od_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,probabilistic,SOS,0.49937484,0.66434462767794,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/01_probabilistic_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,proximity based,COF,0.49859178,0.6661784528717345,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/04_proximity_based_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,neural network,ALAD,0.4962035499999999,0.6665272630344803,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/06_neural_network_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,proximity based,ROD,0.49540746,0.6803684635100076,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/04_proximity_based_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,linear,LMDD,0.49384418,0.7502046621307021,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/03_linear_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,neural network,DeepSVDD,0.4918094899999999,0.6600104353377578,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/06_neural_network_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,outlier ensembles,LODA,0.4903475199999999,0.6588889831533774,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/05_outlier_ensembles_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,neural network,AE1SVM,0.48839288,0.6503714691034046,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/06_neural_network_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,neural network,SO_GAAL,0.48736305,0.6576476449557113,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/06_neural_network_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,time series od,SpectralResidual,0.4829241399999999,0.6621184855528928,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/07_time_series_od_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,neural network,MO_GAAL,0.46599538,0.6354402647503237,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/06_neural_network_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,neural network,AnoGAN,0.45584056,0.6311316012644381,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/06_neural_network_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,proximity based,SOD,0.43097152,0.617963755447134,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/04_proximity_based_results.csv
+AES-T500,AE,Triggered,2,Disabled_vs_Triggered_pt2,True,linear,CD,0.40355136,0.6052513664336364,,False,data/AES-T500/Disabled_vs_Triggered_pt2/roc_auc_dataframes/03_linear_results.csv
+AES-T500,PCA,Enabled,2,PCA_Disabled_vs_Enabled_pt2,False,probabilistic,ECOD,0.54441312,0.6992979724309891,0.6666666666666666,False,data/AES-T500/PCA_Disabled_vs_Enabled_pt2/roc_auc_dataframes/01_probabilistic_results.csv
+AES-T500,PCA,Enabled,2,PCA_Disabled_vs_Enabled_pt2,False,neural network,AE1SVM,0.54317857,0.6984371058041199,0.6666666666666666,False,data/AES-T500/PCA_Disabled_vs_Enabled_pt2/roc_auc_dataframes/06_neural_network_results.csv
+AES-T500,PCA,Enabled,2,PCA_Disabled_vs_Enabled_pt2,False,linear,PCA,0.54249372,0.6973297834849118,0.6666666666666666,False,data/AES-T500/PCA_Disabled_vs_Enabled_pt2/roc_auc_dataframes/03_linear_results.csv
+AES-T500,PCA,Enabled,2,PCA_Disabled_vs_Enabled_pt2,False,probabilistic,GMM,0.54202269,0.6968686710613858,0.6666666666666666,False,data/AES-T500/PCA_Disabled_vs_Enabled_pt2/roc_auc_dataframes/01_probabilistic_results.csv
+AES-T500,PCA,Enabled,2,PCA_Disabled_vs_Enabled_pt2,False,neural network,VAE,0.5413671499999999,0.696230709666464,0.6666666666666666,False,data/AES-T500/PCA_Disabled_vs_Enabled_pt2/roc_auc_dataframes/06_neural_network_results.csv
+AES-T500,PCA,Enabled,2,PCA_Disabled_vs_Enabled_pt2,False,probabilistic,COPOD,0.5397914,0.6926026531826257,0.6666666666666666,False,data/AES-T500/PCA_Disabled_vs_Enabled_pt2/roc_auc_dataframes/01_probabilistic_results.csv
+AES-T500,PCA,Enabled,2,PCA_Disabled_vs_Enabled_pt2,False,probabilistic,QMCD,0.53782094,0.6972438042048659,0.6666666666666666,False,data/AES-T500/PCA_Disabled_vs_Enabled_pt2/roc_auc_dataframes/01_probabilistic_results.csv
+AES-T500,PCA,Enabled,2,PCA_Disabled_vs_Enabled_pt2,False,proximity based,HBOS,0.5374897,0.6957368727332085,0.6666666666666666,False,data/AES-T500/PCA_Disabled_vs_Enabled_pt2/roc_auc_dataframes/04_proximity_based_results.csv
+AES-T500,PCA,Enabled,2,PCA_Disabled_vs_Enabled_pt2,False,neural network,AutoEncoder,0.53710919,0.6914586772886833,0.6666666666666666,False,data/AES-T500/PCA_Disabled_vs_Enabled_pt2/roc_auc_dataframes/06_neural_network_results.csv
+AES-T500,PCA,Enabled,2,PCA_Disabled_vs_Enabled_pt2,False,outlier ensembles,IForest,0.53544632,0.6947829276708944,0.6666666666666666,False,data/AES-T500/PCA_Disabled_vs_Enabled_pt2/roc_auc_dataframes/05_outlier_ensembles_results.csv
+AES-T500,PCA,Enabled,2,PCA_Disabled_vs_Enabled_pt2,False,proximity based,KNN,0.53344555,0.6844471291439889,0.6666666666666666,False,data/AES-T500/PCA_Disabled_vs_Enabled_pt2/roc_auc_dataframes/04_proximity_based_results.csv
+AES-T500,PCA,Enabled,2,PCA_Disabled_vs_Enabled_pt2,False,outlier ensembles,FeatureBagging,0.53258658,0.6885363593455092,0.6666666666666666,False,data/AES-T500/PCA_Disabled_vs_Enabled_pt2/roc_auc_dataframes/05_outlier_ensembles_results.csv
+AES-T500,PCA,Enabled,2,PCA_Disabled_vs_Enabled_pt2,False,proximity based,CBLOF,0.5324846400000001,0.682498706528692,0.6666666666666666,False,data/AES-T500/PCA_Disabled_vs_Enabled_pt2/roc_auc_dataframes/04_proximity_based_results.csv
+AES-T500,PCA,Enabled,2,PCA_Disabled_vs_Enabled_pt2,False,graph based,LUNAR,0.53224036,0.6956015580301321,0.6666666666666666,False,data/AES-T500/PCA_Disabled_vs_Enabled_pt2/roc_auc_dataframes/08_graph_based_results.csv
+AES-T500,PCA,Enabled,2,PCA_Disabled_vs_Enabled_pt2,False,outlier ensembles,SUOD,0.5314074799999999,0.6849049757708778,0.6666666666666666,False,data/AES-T500/PCA_Disabled_vs_Enabled_pt2/roc_auc_dataframes/05_outlier_ensembles_results.csv
+AES-T500,PCA,Enabled,2,PCA_Disabled_vs_Enabled_pt2,False,linear,OCSVM,0.52979454,0.6836493418001719,0.6666666666666666,False,data/AES-T500/PCA_Disabled_vs_Enabled_pt2/roc_auc_dataframes/03_linear_results.csv
+AES-T500,PCA,Enabled,2,PCA_Disabled_vs_Enabled_pt2,False,proximity based,LOF,0.5270573000000001,0.6860705215769813,0.6666666666666666,False,data/AES-T500/PCA_Disabled_vs_Enabled_pt2/roc_auc_dataframes/04_proximity_based_results.csv
+AES-T500,PCA,Enabled,2,PCA_Disabled_vs_Enabled_pt2,False,linear,KPCA,0.5222315,0.6807403909650298,0.6666666666666666,False,data/AES-T500/PCA_Disabled_vs_Enabled_pt2/roc_auc_dataframes/03_linear_results.csv
+AES-T500,PCA,Enabled,2,PCA_Disabled_vs_Enabled_pt2,False,linear,MCD,0.5218847200000001,0.67781745006224,0.6666666666666666,False,data/AES-T500/PCA_Disabled_vs_Enabled_pt2/roc_auc_dataframes/03_linear_results.csv
+AES-T500,PCA,Enabled,2,PCA_Disabled_vs_Enabled_pt2,False,outlier ensembles,INNE,0.5206627,0.6758858159691713,0.6666666666666666,False,data/AES-T500/PCA_Disabled_vs_Enabled_pt2/roc_auc_dataframes/05_outlier_ensembles_results.csv
+AES-T500,PCA,Enabled,2,PCA_Disabled_vs_Enabled_pt2,False,probabilistic,Sampling,0.5195486,0.6761248233650832,0.6666666666666666,False,data/AES-T500/PCA_Disabled_vs_Enabled_pt2/roc_auc_dataframes/01_probabilistic_results.csv
+AES-T500,PCA,Enabled,2,PCA_Disabled_vs_Enabled_pt2,False,proximity based,COF,0.5185945599999999,0.6780527584688512,0.6666666666666666,False,data/AES-T500/PCA_Disabled_vs_Enabled_pt2/roc_auc_dataframes/04_proximity_based_results.csv
+AES-T500,PCA,Enabled,2,PCA_Disabled_vs_Enabled_pt2,False,probabilistic,ABOD,0.51733056,0.6775145310269648,0.6666666666666666,False,data/AES-T500/PCA_Disabled_vs_Enabled_pt2/roc_auc_dataframes/01_probabilistic_results.csv
+AES-T500,PCA,Enabled,2,PCA_Disabled_vs_Enabled_pt2,False,outlier ensembles,LODA,0.5098634400000001,0.6729820605920329,0.6666666666666666,False,data/AES-T500/PCA_Disabled_vs_Enabled_pt2/roc_auc_dataframes/05_outlier_ensembles_results.csv
+AES-T500,PCA,Enabled,2,PCA_Disabled_vs_Enabled_pt2,False,neural network,ALAD,0.5058901100000001,0.668735521346236,0.6666666666666666,False,data/AES-T500/PCA_Disabled_vs_Enabled_pt2/roc_auc_dataframes/06_neural_network_results.csv
+AES-T500,PCA,Enabled,2,PCA_Disabled_vs_Enabled_pt2,False,probabilistic,KDE,0.5027004399999999,0.6708597920164552,0.6666666666666666,False,data/AES-T500/PCA_Disabled_vs_Enabled_pt2/roc_auc_dataframes/01_probabilistic_results.csv
+AES-T500,PCA,Enabled,2,PCA_Disabled_vs_Enabled_pt2,False,neural network,MO_GAAL,0.5023669399999999,0.6677658967479904,0.6666666666666666,False,data/AES-T500/PCA_Disabled_vs_Enabled_pt2/roc_auc_dataframes/06_neural_network_results.csv
+AES-T500,PCA,Enabled,2,PCA_Disabled_vs_Enabled_pt2,False,neural network,SO_GAAL,0.50216455,0.6676760333129125,0.6666666666666666,False,data/AES-T500/PCA_Disabled_vs_Enabled_pt2/roc_auc_dataframes/06_neural_network_results.csv
+AES-T500,PCA,Enabled,2,PCA_Disabled_vs_Enabled_pt2,False,proximity based,HDBSCAN,0.50115221,0.6643203167407553,0.6666666666666666,False,data/AES-T500/PCA_Disabled_vs_Enabled_pt2/roc_auc_dataframes/04_proximity_based_results.csv
+AES-T500,PCA,Enabled,2,PCA_Disabled_vs_Enabled_pt2,False,neural network,AnoGAN,0.4923384799999999,0.662905702767892,0.6666666666666666,False,data/AES-T500/PCA_Disabled_vs_Enabled_pt2/roc_auc_dataframes/06_neural_network_results.csv
+AES-T500,PCA,Enabled,2,PCA_Disabled_vs_Enabled_pt2,False,neural network,DeepSVDD,0.48063058,0.6554042672101483,0.6666666666666666,False,data/AES-T500/PCA_Disabled_vs_Enabled_pt2/roc_auc_dataframes/06_neural_network_results.csv
